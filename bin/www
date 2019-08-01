@@ -3,11 +3,11 @@
 /**
  * Module dependencies.
  */
-require('@google-cloud/debug-agent').start();
+
 var app = require('../app');
 var debug = require('debug')('dlsmarttemp:server');
 var http = require('http');
-
+require('@google-cloud/debug-agent').start();
 /**
  * Get port from environment and store in Express.
  */
